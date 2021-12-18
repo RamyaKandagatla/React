@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: lightgray;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.profile{
+  text-align: center;
+}
+.img{
+  border-radius: 20px;
+  margin-top: 30px;
+}
+.name{
+  font-weight: bolder;
+  color:lightseagreen;
+  font-size: 50px;
+  margin-top: 5px;
+
+}
+p{
+  color:gray;
+  font-weight: 500;
+}
+.location,.bloodgroup,.age{
+  color:black;
+  font-size:40px;
+  font-weight:bold;
+}
