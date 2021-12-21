@@ -1,0 +1,130 @@
+.site-container{
+    text-align: center;
+}
+html{
+    font-family: 14px;
+}
+body{
+    line-height:1.5;
+    color:black;
+    margin:0;
+}
+a:not([href]):not([tabindex]){
+    color:inherit;
+    text-decoration: none;
+
+}
+
+a:not([href]):not([tabindex]):hover,a:not([href]):not([tabindex]){
+    color:inherit;
+    text-decoration: none;
+}
+a:not([href]):not([tabindex]):focus{
+    outline:none;
+}
+ul{
+    list-style: none;
+}
+img{
+    vertical-align: middle;
+    
+    border-style: none;
+}
+a{
+    background-color: transparent;
+    text-decoration: none;
+}
+.nav{
+    background-color: #eee;
+    padding:0.5rem;
+    border-bottom: 1px solid #989898;
+    text-align: center;
+    min-height: 50px;
+    margin-bottom: 1.5rem;
+}
+.nav-arrow{
+    position: absolute;
+    font-size: 40px;
+    width:1rem;
+    height:1rem;
+    top:1rem;
+    left:1rem;
+}
+.nav-title{
+    margin-bottom: 0;
+    width:100%;
+}
+.nav-btn{
+    position:absolute;
+    top:2rem;
+    font-weight: bolder;
+    background-color: black;
+    color:white;
+    right:1rem;
+    padding:10px;
+}
+.block{
+    margin-bottom:1.5rem;
+    border:1px solid #dedede;
+    border-radius:0.2 rem ;
+    padding:10px;
+}
+.customer-info{
+    text-align: left;
+}
+.grid{
+    display: block;
+    clear:both;   /*clear all floating*/
+}
+
+.order-info{
+    border-color: gray;
+    background-color: #eee;
+    height:100px;
+}
+.grid .one-third{
+    width:30%;
+    float:left;
+    padding-right:10px ;
+}
+.product-list{
+    height:120px;
+}
+.custom-checkbox{
+    position: absolute;
+    left:1rem;
+}
+input[type=checkbox]{
+    width:25px;
+    height:25px;
+    background:white ;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    position: relative;
+    left:-2px;
+    top:-3px;
+    right:-3px;
+    cursor: pointer;
+    outline: 2px solid orange;
+}
+
+.product-arrow {
+    position: absolute;
+    font-size: 40px;
+    right:1rem;
+}
+.text{
+    color:black;
+}
+
+.product-title{
+    position:absolute;
+    left:11rem;
+}
+.text-help{
+    position:relative;
+    top:3rem;
+    left:-17rem;
+}
