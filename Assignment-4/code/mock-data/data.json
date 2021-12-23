@@ -1,0 +1,29 @@
+{
+    "user": [
+        {
+            "name": "Siva",
+            "location": "Bengaluru",
+            "likes": 64,
+            "description": "nature photography",
+            "PostImage": "https://images.ctfassets.net/hrltx12pl8hq/3MbF54EhWUhsXunc5Keueb/60774fbbff86e6bf6776f1e17a8016b4/04-nature_721703848.jpg?fit=fill&w=480&h=270",
+            "Date": "11-06-2016"
+            
+        },
+        {
+            "name": "Neeraj",
+            "location": "Pune",
+            "likes": 30,
+            "description": "flower",
+            "PostImage": "https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510__480.jpg",
+            "Date": "10-06-2016"
+        },
+        {
+            "name": "Rahul",
+            "location": "Delhi",
+            "likes": 30,
+            "description": "Tajmahal",
+            "PostImage": "https://static.toiimg.com/thumb/msid-31346025,width-400,height-400,resizemode-75,imgsize-31346025,pt-32,y_pad-40/31346025.jpg",
+            "Date": "12-06-2016"
+        }
+    ]
+}
